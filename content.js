@@ -31,7 +31,7 @@ window.PROFILE = {
     },
     {
       "date": "Dec 2025",
-      "text": "Started a research assistantship (RA) under Prof. Charith Mendis at UIUC.",
+      "text": "Research Assistant (RA) under Prof. Charith Mendis at UIUC.",
       "links": {}
     },
     {
