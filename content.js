@@ -155,6 +155,7 @@ window.PROFILE = {
     "University of Illinois Urbana-Champaign (UIUC)": "https://siebelschool.illinois.edu/",
     "University of California, Irvine (UCI)": "https://ics.uci.edu/",
     "Campuswide Honors Collegium (CHC)": "https://catalogue.uci.edu/honors/",
-    "ICS Honors Program": "https://ics.uci.edu/honors/"
+    "ICS Honors Program": "https://ics.uci.edu/honors/",
+    "Phi Beta Kappa": "https://phibetakappa.uci.edu"
   }
 };
