@@ -30,6 +30,11 @@ window.PROFILE = {
       }
     },
     {
+      "date": "Dec 2025",
+      "text": "Started a research assistantship under Prof. Charith Mendis at UIUC.",
+      "links": {}
+    },
+    {
       "date": "Aug 2025",
       "text": "Joined the Master of Computer Science (MCS) program at UIUC.",
       "links": {}
