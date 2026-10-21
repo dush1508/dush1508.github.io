@@ -10,4 +10,6 @@
 
 h1,h2,h3,h4{font-family:"Source Serif 4",Georgia,serif}.topbar,footer{font-family:Inter,Arial,sans-serif}
 
-main a:not(:has(svg)):not(:has(.project-image)){text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}main a:hover{color:var(--heading);text-decoration-thickness:2px}
+main a:not(:has(svg)):not(:has(.project-image)){text-decoration:none}main a:hover{color:var(--heading);text-decoration:none}
+
+main a:hover{text-decoration:none}
