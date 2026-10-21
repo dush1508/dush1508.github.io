@@ -12,7 +12,7 @@ window.PROFILE = {
   "cv": "",
   "about": [
     "I am a Master of Computer Science (MCS) student at the University of Illinois Urbana-Champaign (UIUC), working with Prof. Charith Mendis and Prof. Gagandeep Singh.",
-    "My research lies at the intersection of AI and formal methods. On one hand, I study how learning and synthesis techniques can be used to automate and improve formal methods (AI for formal methods). On the other, I develop formal infrastructures for building and accelerating trustworthy AI systems using formal methods (formal methods for AI).",
+    "My research lies at the intersection of AI and formal methods. In AI for formal methods, I study how learning and synthesis techniques can automate and improve formal methods. In formal methods for AI, I develop formal infrastructures for building and accelerating trustworthy AI systems.",
     "Before joining UIUC, I graduated in Computer Science from the University of California, Irvine (UCI) in 2025, completing both the Campuswide Honors Collegium (CHC) and the ICS Honors Program, and was inducted into Phi Beta Kappa. During my time at UCI, I conducted research with the Dutt Research Group."
   ],
   "affiliations": {
