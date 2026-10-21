@@ -49,14 +49,16 @@ window.PROFILE = {
           "title": "RuleFlow",
           "description": "RuleFlow uses LLMs to discover optimizations for Pandas programs and generalizes them into reusable rewrite rules. A compiler then applies those rules to new programs without calling an LLM during deployment. This separates the cost of discovering optimizations from the process of repeatedly applying them.",
           "status": "COLM 2026",
-          "image": "assets/ruleflow.svg",
-          "imageAlt": "RuleFlow pipeline: discover optimizations with LLMs, generalize rewrite rules, and deploy with a compiler.",
+          "image": "assets/ruleflow.png",
+          "imageAlt": "RuleFlow architecture: SnippetGen discovers optimizations, RuleGen generalizes rewrite rules, and CodeGen applies them to test-time notebooks.",
           "showImage": true,
           "links": {
             "Paper": "https://openreview.net/forum?id=Zmh7XeI4h2",
             "GitHub": "https://github.com/ADAPT-uiuc/RuleFlow"
           },
-          "subtitle": "Learning Reusable Program Transformations via LLM-Guided Rule Synthesis"
+          "subtitle": "Learning Reusable Program Transformations via LLM-Guided Rule Synthesis",
+          "wideImage": true,
+          "imageLink": "assets/ruleflow-diagram.pdf"
         }
       ]
     },
@@ -66,7 +68,7 @@ window.PROFILE = {
       "projects": [
         {
           "title": "Scepter",
-          "description": "Scepter specializes generated neural network certifiers to accelerate their execution. It separates architecture-dependent structural decisions from numerical computation and resolves structural work ahead of time, producing a reusable sequence of numerical operations. This specialization leads to speedups over hand-tuned certifiers.",
+          "description": "Scepter specializes neural network certifiers to the architecture of the neural network, thereby accelerating their execution. It does so by separating architecture-dependent structural decisions from numerical computation and resolving structural work ahead of time, producing a reusable sequence of numerical operations. This specialization leads to speedups over hand-tuned certifiers.",
           "status": "Work in progress",
           "image": "assets/scepter.svg?v=2",
           "imageAlt": "Scepter separates architecture-dependent structural work from reusable numerical computation.",
