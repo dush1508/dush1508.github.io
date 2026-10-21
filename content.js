@@ -66,10 +66,10 @@ window.PROFILE = {
       "projects": [
         {
           "title": "Scepter",
-          "description": "Scepter specializes generated neural network certifiers to accelerate their execution on GPUs. It separates architecture-dependent structural decisions from numerical computation and resolves structural work ahead of time, producing a reusable sequence of GPU operations. This specialization leads to speedups over hand-tuned certifiers.",
+          "description": "Scepter specializes generated neural network certifiers to accelerate their execution. It separates architecture-dependent structural decisions from numerical computation and resolves structural work ahead of time, producing a reusable sequence of numerical operations. This specialization leads to speedups over hand-tuned certifiers.",
           "status": "Work in progress",
-          "image": "assets/scepter.svg",
-          "imageAlt": "Scepter separates architecture-dependent structural work from reusable GPU computation.",
+          "image": "assets/scepter.svg?v=2",
+          "imageAlt": "Scepter separates architecture-dependent structural work from reusable numerical computation.",
           "showImage": true,
           "links": {}
         }
@@ -102,7 +102,7 @@ window.PROFILE = {
   "workInProgress": [
     {
       "title": "Scepter",
-      "description": "Architecture specialization for efficient GPU execution of generated neural network certifiers.",
+      "description": "Architecture specialization for efficient execution of generated neural network certifiers.",
       "status": "In preparation."
     }
   ],
