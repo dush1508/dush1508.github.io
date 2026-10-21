@@ -2,7 +2,7 @@
 window.PROFILE = {
   "firstName": "Dushyant",
   "lastName": "Bharadwaj",
-  "subtitle": "CS master’s student @ UIUC",
+  "subtitle": "MCS student @ UIUC",
   "photo": "assets/dushyant.jpg",
   "email": "db50@illinois.edu",
   "socials": {
@@ -11,7 +11,7 @@ window.PROFILE = {
   },
   "cv": "",
   "about": [
-    "I am a master’s student in Computer Science at the University of Illinois Urbana-Champaign (UIUC), working with Prof. Charith Mendis and Prof. Gagandeep Singh.",
+    "I am a Master of Computer Science (MCS) student at the University of Illinois Urbana-Champaign (UIUC), working with Prof. Charith Mendis and Prof. Gagandeep Singh.",
     "My research lies at the intersection of AI and formal methods. On one hand, I study how learning and synthesis techniques can be used to automate and improve formal methods (AI for formal methods). On the other, I develop formal infrastructures for building and accelerating trustworthy AI systems using formal methods (formal methods for AI).",
     "Before joining UIUC, I graduated in Computer Science from the University of California, Irvine (UCI) in 2025, completing both the Campuswide Honors Collegium (CHC) and the ICS Honors Program, and was inducted into Phi Beta Kappa. During my time at UCI, I conducted research with the Dutt Research Group."
   ],
@@ -31,7 +31,7 @@ window.PROFILE = {
     },
     {
       "date": "Aug 2025",
-      "text": "Joined the master’s program at UIUC.",
+      "text": "Joined the Master of Computer Science (MCS) program at UIUC.",
       "links": {}
     },
     {
@@ -68,10 +68,11 @@ window.PROFILE = {
           "title": "Scepter",
           "description": "Scepter specializes neural network certifiers to the architecture of the neural network, thereby accelerating their execution. It does so by separating architecture-dependent structural decisions from numerical computation and resolving structural work ahead of time, producing a reusable sequence of numerical operations. This specialization leads to speedups over hand-tuned certifiers.",
           "status": "Work in progress",
-          "image": "assets/scepter.svg?v=2",
-          "imageAlt": "Scepter separates architecture-dependent structural work from reusable numerical computation.",
+          "image": "assets/scepter-stage.svg",
+          "imageAlt": "An execution of tensor operations is split into descriptor computations performed before certification and a residual program that consumes every descriptor as a constant and processes payloads at run time.",
           "showImage": true,
-          "links": {}
+          "links": {},
+          "imageLink": "assets/scepter-stage.svg"
         }
       ]
     }
@@ -109,7 +110,7 @@ window.PROFILE = {
   "education": [
     {
       "dates": "2025 – Present",
-      "title": "Master’s studies in Computer Science",
+      "title": "Master of Computer Science (MCS)",
       "organization": "University of Illinois Urbana-Champaign",
       "detail": "Prof. Charith Mendis"
     },
