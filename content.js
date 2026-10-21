@@ -43,7 +43,7 @@ window.PROFILE = {
   "research": [
     {
       "title": "AI for Formal Methods",
-      "description": "I explore how language models can assist program transformation and compiler construction.",
+      "description": "I use machine learning and program synthesis to automate the construction and improvement of formal analysis tools.",
       "projects": [
         {
           "title": "RuleFlow",
@@ -62,14 +62,14 @@ window.PROFILE = {
     },
     {
       "title": "Formal Methods for AI",
-      "description": "I study how programming language and compiler techniques can make neural network certification more efficient.",
+      "description": "I develop formal foundations and infrastructure for reliable AI analysis and certification.",
       "projects": [
         {
-          "title": "Jupiter",
-          "description": "Jupiter specializes generated neural network certifiers to a fixed network architecture. It separates structural decisions from numerical computation and resolves eligible structural work ahead of time, producing a reusable sequence of GPU operations. The goal is to reduce host overhead while preserving the analysis computed by the original certifier within the supported specialization model.",
-          "status": "Work in progress · Planned PLDI submission",
-          "image": "assets/jupiter.svg",
-          "imageAlt": "Jupiter separates architecture-dependent structural work from reusable GPU computation.",
+          "title": "Scepter",
+          "description": "Scepter specializes generated neural network certifiers to accelerate their execution on GPUs. It separates architecture-dependent structural decisions from numerical computation and resolves structural work ahead of time, producing a reusable sequence of GPU operations. This specialization leads to speedups over hand-tuned certifiers.",
+          "status": "Work in progress",
+          "image": "assets/scepter.svg",
+          "imageAlt": "Scepter separates architecture-dependent structural work from reusable GPU computation.",
           "showImage": true,
           "links": {}
         }
@@ -101,9 +101,9 @@ window.PROFILE = {
   ],
   "workInProgress": [
     {
-      "title": "Jupiter",
+      "title": "Scepter",
       "description": "Architecture specialization for efficient GPU execution of generated neural network certifiers.",
-      "status": "In preparation · Planned submission to PLDI."
+      "status": "In preparation."
     }
   ],
   "education": [
