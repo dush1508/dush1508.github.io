@@ -31,7 +31,7 @@ window.PROFILE = {
     },
     {
       "date": "Dec 2025",
-      "text": "Started a research assistantship under Prof. Charith Mendis at UIUC.",
+      "text": "Started a research assistantship (RA) under Prof. Charith Mendis at UIUC.",
       "links": {}
     },
     {
@@ -73,11 +73,12 @@ window.PROFILE = {
           "title": "Scepter",
           "description": "Scepter specializes neural network certifiers to the architecture of the neural network, thereby accelerating their execution. It does so by separating architecture-dependent structural decisions from numerical computation and resolving structural work ahead of time, producing a reusable sequence of numerical operations. This specialization leads to speedups over hand-tuned certifiers.",
           "status": "Work in progress",
-          "image": "assets/scepter-stage.svg",
+          "image": "assets/scepter-stage-bold.svg",
           "imageAlt": "An execution of tensor operations is split into descriptor computations performed before certification and a residual program that consumes every descriptor as a constant and processes payloads at run time.",
           "showImage": true,
           "links": {},
-          "imageLink": "assets/scepter-stage.svg"
+          "imageLink": "assets/scepter-stage-bold.svg",
+          "wideImage": true
         }
       ]
     }
