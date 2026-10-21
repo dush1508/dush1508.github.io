@@ -22,7 +22,7 @@ window.PROFILE = {
   },
   "news": [
     {
-      "date": "2026",
+      "date": "Jul 2026",
       "text": "RuleFlow: Learning Reusable Program Transformations via LLM-Guided Rule Synthesis appears at COLM 2026.",
       "links": {
         "paper": "https://openreview.net/forum?id=Zmh7XeI4h2",
@@ -30,13 +30,13 @@ window.PROFILE = {
       }
     },
     {
-      "date": "Fall 2025",
+      "date": "Aug 2025",
       "text": "Joined the master’s program at UIUC.",
       "links": {}
     },
     {
-      "date": "2025",
-      "text": "Graduated from UC Irvine with honors and was inducted into Phi Beta Kappa.",
+      "date": "Jun 2025",
+      "text": "Graduated in Computer Science from the University of California, Irvine.",
       "links": {}
     }
   ],
@@ -48,16 +48,14 @@ window.PROFILE = {
         {
           "title": "RuleFlow",
           "description": "RuleFlow uses LLMs to discover optimizations for Pandas programs and generalizes them into reusable rewrite rules. A compiler then applies those rules to new programs without calling an LLM during deployment. This separates the cost of discovering optimizations from the process of repeatedly applying them.",
-          "status": "COLM 2026",
+          "status": "",
           "image": "assets/ruleflow.png",
           "imageAlt": "RuleFlow architecture: SnippetGen discovers optimizations, RuleGen generalizes rewrite rules, and CodeGen applies them to test-time notebooks.",
           "showImage": true,
           "links": {
-            "Paper": "https://openreview.net/forum?id=Zmh7XeI4h2",
+            "COLM 2026": "https://openreview.net/forum?id=Zmh7XeI4h2",
             "GitHub": "https://github.com/ADAPT-uiuc/RuleFlow"
           },
-          "subtitle": "Learning Reusable Program Transformations via LLM-Guided Rule Synthesis",
-          "wideImage": true,
           "imageLink": "assets/ruleflow-diagram.pdf"
         }
       ]
