@@ -77,8 +77,7 @@ window.PROFILE = {
           "imageAlt": "An execution of tensor operations is split into descriptor computations performed before certification and a residual program that consumes every descriptor as a constant and processes payloads at run time.",
           "showImage": true,
           "links": {},
-          "imageLink": "assets/scepter-stage-bold.svg",
-          "wideImage": true
+          "imageLink": "assets/scepter-stage-bold.svg"
         }
       ]
     }
