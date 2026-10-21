@@ -13,11 +13,10 @@ window.PROFILE = {
   "about": [
     "I am a master’s student in Computer Science at the University of Illinois Urbana-Champaign (UIUC), working with Prof. Charith Mendis and Prof. Gagandeep Singh.",
     "My research lies at the intersection of AI and formal methods. On one hand, I study how learning and synthesis techniques can be used to automate and improve formal methods (AI for formal methods). On the other, I develop formal infrastructures for building and accelerating trustworthy AI systems using formal methods (formal methods for AI).",
-    "Before joining UIUC, I graduated in Computer Science from the University of California, Irvine (UCI) in 2025 with honors and was inducted into Phi Beta Kappa. During my time at UCI, I conducted research with the Dutt Research Group."
+    "Before joining UIUC, I graduated in Computer Science from the University of California, Irvine (UCI) in 2025, completing both the Campuswide Honors Collegium (CHC) and the ICS Honors Program, and was inducted into Phi Beta Kappa. During my time at UCI, I conducted research with the Dutt Research Group."
   ],
   "affiliations": {
     "University of Illinois Urbana-Champaign": "https://siebelschool.illinois.edu/",
-    "ADAPT": "https://adapt.cs.illinois.edu/",
     "Charith Mendis": "https://charithmendis.com/",
     "Gagandeep Singh": "https://ggndpsngh.github.io/"
   },
@@ -32,7 +31,7 @@ window.PROFILE = {
     },
     {
       "date": "Fall 2025",
-      "text": "Joined the master’s program at UIUC and the ADAPT research group.",
+      "text": "Joined the master’s program at UIUC.",
       "links": {}
     },
     {
@@ -55,7 +54,6 @@ window.PROFILE = {
           "showImage": true,
           "links": {
             "Paper": "https://openreview.net/forum?id=Zmh7XeI4h2",
-            "arXiv": "https://arxiv.org/abs/2602.09051",
             "GitHub": "https://github.com/ADAPT-uiuc/RuleFlow"
           },
           "subtitle": "Learning Reusable Program Transformations via LLM-Guided Rule Synthesis"
@@ -87,7 +85,6 @@ window.PROFILE = {
       "abstract": "RuleFlow combines LLM-based optimization discovery with compiler-based deployment. It generalizes program-specific optimizations into reusable rewrite rules, allowing a compiler to optimize new Pandas programs without repeated LLM calls.",
       "links": {
         "Paper": "https://openreview.net/forum?id=Zmh7XeI4h2",
-        "arXiv": "https://arxiv.org/abs/2602.09051",
         "Code": "https://github.com/ADAPT-uiuc/RuleFlow"
       }
     },
@@ -114,7 +111,7 @@ window.PROFILE = {
       "dates": "2025 – Present",
       "title": "Master’s studies in Computer Science",
       "organization": "University of Illinois Urbana-Champaign",
-      "detail": "ADAPT research group · Prof. Charith Mendis"
+      "detail": "Prof. Charith Mendis"
     },
     {
       "dates": "Graduated 2025",
@@ -127,7 +124,7 @@ window.PROFILE = {
     {
       "dates": "Fall 2025 – Present",
       "title": "Graduate Research",
-      "organization": "ADAPT, University of Illinois Urbana-Champaign",
+      "organization": "University of Illinois Urbana-Champaign",
       "detail": "Research on program optimization, compiler techniques, and efficient neural network certification."
     },
     {
@@ -156,6 +153,8 @@ window.PROFILE = {
     "Prof. Gagandeep Singh": "https://ggndpsngh.github.io/",
     "Dutt Research Group": "https://duttgroup.ics.uci.edu/",
     "University of Illinois Urbana-Champaign (UIUC)": "https://siebelschool.illinois.edu/",
-    "University of California, Irvine (UCI)": "https://ics.uci.edu/"
+    "University of California, Irvine (UCI)": "https://ics.uci.edu/",
+    "Campuswide Honors Collegium (CHC)": "https://catalogue.uci.edu/honors/",
+    "ICS Honors Program": "https://ics.uci.edu/honors/"
   }
 };
